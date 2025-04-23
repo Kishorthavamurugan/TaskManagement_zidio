@@ -123,15 +123,15 @@ If configured correctly, you should see a message indicating that the server is 
 
  
 
-Client Side Setup
-Environment variables
+# Client Side Setup
+# Environment variables
 First, create the environment variables file .env in the client folder. The .env file contains the following environment variables:
 
 VITE_APP_BASE_URL = http://localhost:8800 #Note: Change the port 8800 to your port number.
 VITE_APP_CLOUDINARY_URL= https://api.cloudinary.com/v1_1/{name}/image/upload
 VITE_APP_UPLOAD_PRESET=mycloud
 VITE_APP_NAME= CLoudinary Name
-Steps to run client
+# Steps to run client
 Navigate into the client directory cd client.
 Run npm i or npm install to install the packages.
 Run npm start to run the app on http://localhost:3000.
